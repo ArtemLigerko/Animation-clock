@@ -1,0 +1,30 @@
+
+main{
+    width: 600px;
+    height: 600px;
+    background-image: url(../images/clock.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+.arrow-sec {
+    height: 200px;
+    width: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    bottom: 0;
+    right: 0;
+    background-color: brown;
+    transform-origin: top;
+    animation-name: arrow-sec;
+    animation-duration: 15 sec;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes arrow-sec {
+    100% {transform: rotate(-360deg);}
+}
