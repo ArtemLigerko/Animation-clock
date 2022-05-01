@@ -17,8 +17,8 @@ main{
     transform-origin: top;
     background-color: brown;
     transform: rotate(180deg);
-    animation: spin 6s linear infinite forwards;
-    
+    animation: spin 60s linear infinite forwards;
+    animation-timing-function: steps(60);
 }
 
 @keyframes spin {
